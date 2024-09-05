@@ -3,7 +3,7 @@
     <button class="dropdown-toggle lang-flag btn p-0 d-flex align-items-center gap-1" type="button"
       [ngClass]="shouldApplyDarkToggle()?'text-white-color':'text-dark-color dark-toggle'" data-bs-toggle="dropdown"
       aria-expanded="false">
-      <span class="d-xl-flex d-none">
+      <span class="d-flex">
         @switch(currentLanguage){
         @case ('ar') {
         <img class="flag" ngSrc="assets/images/flag/sa.svg" width="200" height="150" priority alt="saudi flag">
@@ -13,7 +13,7 @@
         }
         }
       </span>
-      <i class="pi pi-language fs-4 d-xl-none d-flex"></i>
+      <i class="pi pi-language fs-4 d-flex"></i>
       <span class="lang">
         {{currentLanguage=='ar'?'عربي':'EN'}}
       </span>

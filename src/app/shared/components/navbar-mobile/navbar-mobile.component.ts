@@ -6,10 +6,11 @@ import { keys } from '../../configs/localstorage-key';
 import { TranslateModule } from '@ngx-translate/core';
 import { SidebarModule } from 'primeng/sidebar';
 import { RouterModule } from '@angular/router';
+import { UserInfoComponent } from '../navbar/user-info/user-info.component';
 @Component({
   selector: 'navbar-mobile',
   standalone: true,
-  imports: [SidebarModule, RouterModule, TranslateModule, NgOptimizedImage, LanguageSelectorComponent],
+  imports: [SidebarModule, RouterModule, TranslateModule, NgOptimizedImage, LanguageSelectorComponent, UserInfoComponent],
   templateUrl: './navbar-mobile.component.html',
   styleUrl: './navbar-mobile.component.scss'
 })

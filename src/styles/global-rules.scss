@@ -101,3 +101,6 @@ img {
     left: inherit !important;
   }
 }
+.btn:first-child:active {
+  border: 0;
+}

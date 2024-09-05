@@ -15,6 +15,10 @@
   "home":{
     "noData":"There is no data"
   },
+  "profile":{
+    "profile":"Profile",
+    "logout":"Log Out"
+  },
   "footer": {
     "allRight": "All Rights Reserved © 2022."
   },
