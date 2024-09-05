@@ -1,0 +1,26 @@
+.navbar {
+  transition: all 0.5s ease !important;
+  height: 80px;
+  z-index: 888;
+  &.headerScroll,
+  &.headerBg {
+    background: #ffffff4d !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+  }
+  .logo {
+    font-family: fantasy;
+  }
+  .navbar-nav {
+    .nav-link {
+      color: var(--text-white-color);
+      font-weight: 400;
+      font-size: 20px;
+      &.active-link {
+        border-bottom: 2px solid var(--bg-white-color);
+        font-weight: bold !important;
+      }
+    }
+  }
+}

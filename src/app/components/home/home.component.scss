@@ -1,0 +1,9 @@
+#home {
+  padding-top: 6rem;
+  .overlay {
+    height: 40vh;
+    background-color: var(--bg-main-color);
+    inset: 0;
+    z-index: -1;
+  }
+}

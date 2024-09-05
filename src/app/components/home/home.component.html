@@ -1,0 +1,16 @@
+<div id="home" class="position-relative">
+  <div class="overlay position-absolute"></div>
+  <div class="container">
+    @if(isLoadingMemberships){
+    <app-home-skeleton [type]="'memberships'"></app-home-skeleton>
+    }@else {
+    <div class="row gy-4">
+      @for (item of memberships; track $index) {
+      <div class="col-lg-3 col-md-6">
+        <app-membership-card [item]="item"></app-membership-card>
+      </div>
+      }
+    </div>
+    }
+  </div>
+</div>

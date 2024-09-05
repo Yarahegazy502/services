@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg position-fixed w-100 d-xl-block d-none">
+  <div class="container px-0">
+    <span class="navbar-brand mx-3">
+      <a class="fs-4 text-white-color logo">
+        Services
+      </a>
+    </span>
+    <button class="navbar-toggler border-0" type="button">
+    </button>
+    <div class="collapse navbar-collapse m-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4">
+        @for(link of navAllLinks;track link.id){
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[link.route]" routerLinkActive="active-link" [title]="link.title">
+            {{link.name|translate}}
+          </a>
+        </li>
+        }
+      </ul>
+      <div class="d-flex align-items-center gap-4 py-lg-0 py-3">
+        <app-user-info></app-user-info>
+        <app-language-selector></app-language-selector>
+      </div>
+    </div>
+  </div>
+</nav>

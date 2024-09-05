@@ -1,0 +1,8 @@
+/
+/doctors
+/doctors/list
+/home
+/places
+/places/details/
+/places/detailss/
+/places/list

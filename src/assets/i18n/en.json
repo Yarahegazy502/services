@@ -1,0 +1,23 @@
+{
+
+  "titles": {
+    "home": "Home",
+    "about": "About",
+    "blogs": "Blogs",
+    "contact": "Contact us"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "blogs": "Blogs",
+    "contact": "Contact us"
+  },
+  "footer": {
+    "allRight": "All Rights Reserved © 2022."
+  },
+  "errors":{
+    "backToHome": "Back to home",
+    "serverError": "A server error has occurred",
+    "pageNotFound": "Page not found"
+  }
+}
