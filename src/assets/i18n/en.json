@@ -12,6 +12,9 @@
     "blogs": "Blogs",
     "contact": "Contact us"
   },
+  "home":{
+    "noData":"There is no data"
+  },
   "footer": {
     "allRight": "All Rights Reserved © 2022."
   },

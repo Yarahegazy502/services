@@ -7,10 +7,6 @@
 @import "styles/global-rules.scss";
 @import "styles/colors-classes.scss";
 
-// @import "tailwindcss/base";
-// @import "tailwindcss/components";
-// @import "tailwindcss/utilities";
-
 [dir="rtl"] {
   @import "styles/rtl/cust-style-rtl.scss";
 }

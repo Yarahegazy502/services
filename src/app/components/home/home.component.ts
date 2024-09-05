@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MembershipCardComponent } from './membership-card/membership-card.component';
 import { HomeSkeletonComponent } from './home-skeleton/home-skeleton.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, MembershipCardComponent, HomeSkeletonComponent],
+  imports: [CommonModule, MembershipCardComponent, HomeSkeletonComponent, TranslateModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
